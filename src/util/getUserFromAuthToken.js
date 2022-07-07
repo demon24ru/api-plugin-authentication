@@ -1,5 +1,5 @@
 import { resumeSession } from "./accountServer.js";
-import { expandAuthToken } from "./oauth2";
+import { expandAuthToken } from "./oauth2.js";
 
 /**
  * Given an Authorization Bearer token and the current context, returns the user document
