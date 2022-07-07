@@ -28,9 +28,8 @@ A function is added to `functionByType.graphQLContext` which links the graphQL c
 
 | Variable Name | Description                                                                                                                     | Default Value           |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------------- | ----------------------- |
-| STORE_URL     | This is the public link to the storefront (used to redirect)                                                                    | `http://localhost:4000` |
-| MONGO_URL     | MongoDB used to store session & tokens                                                                                          | None                    |
-| TOKEN_SECRET  | [secret](https://www.accountsjs.com/docs/api/server/interfaces/accountsserveroptions#tokensecret) used while creating the token | `UPDATE_THIS_SECRET`    |
+| MONGO_URL     | MongoDB used to store users                                                                                          | None                    |
+| OAUTH2_ADMIN_URL  | Hydra admin url | `http://<hydra-admin-url>:4445`    |
 
 ## Developer Certificate of Origin
 
