@@ -25,12 +25,6 @@
   },
   "sideEffects": false,
   "dependencies": {
-    "@accounts/graphql-api": "^0.33.2",
-    "@accounts/magic-link": "^0.1.1",
-    "@accounts/mongo": "^0.34.0",
-    "@accounts/password": "^0.32.2",
-    "@accounts/server": "^0.33.1",
-    "@accounts/oauth": "^0.32.2",
     "@graphql-modules/core": "^0.7.17",
     "@reactioncommerce/api-utils": "^1.16.9",
     "@reactioncommerce/logger": "^1.1.5",
